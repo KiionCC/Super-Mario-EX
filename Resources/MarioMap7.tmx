@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="238" height="14" tilewidth="16" tileheight="16" nextobjectid="33">
+ <tileset firstgid="1" name="superMarioMap" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="900" columns="30">
+  <image source="superMarioMap.png" width="511" height="511"/>
+  <tile id="0">
+   <properties>
+    <property name="blockType" value="2"/>
+   </properties>
+  </tile>
+  <tile id="600">
+   <properties>
+    <property name="blockType" value="1"/>
+   </properties>
+  </tile>
+  <tile id="845">
+   <properties>
+    <property name="blockType" value="3"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="901" source="bg3.tsx"/>
+ <layer name="background" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="cloud" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt2LENgDAMBdFMCjQwBdDA4LikQyEOPyb3JLfxyRUiJQC9GmxGm0nc8Rb9WvRrdq82m83uGZSJfvpLRO1v4XYl6NeiHwDimW0WdUQB+rWi93v46gb3PYfNWeHdmuh/fremP/V78LyBYg/92j30t7UHAAC0Kfr/Avq1vPpVd4h6/+jf8PRrefWr7hD9/gAA9OQCLKE+MQ==
+  </data>
+ </layer>
+ <layer name="mountain" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt2EsKwjAUheGYBfpah4+uI62uo1bXEaur8gQaSGsHDoRE+T84XMgokwOXawwAAPiGlTVmrWxs7p8A+NRefT0oR3oL/ASnrtZKo5yUM90FiteqpxelU67Kjd4CxfPq6V3plYfypLdAsdywE9czCe9u6O/Sju9WW3oNZBP245huMmOCnR3frSp6C2QT9uOYPpnT3nK3AsqR9radmbG33K2AcqQ7sp/M2N+AuxVQjrkdOZ2efgJ/rVq8B0A+L745Qg8=
+  </data>
+ </layer>
+ <layer name="land" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt1UsKgCAUBVBdYrWRpm27FUSzCDMjy6Bz4A4E/z0pBAAAAAAAAABgb04EakrV2JXcnaPG+Dvnemr8m564v5rrp/qWtkvm/8p3AIBS/mvvmTJZdTGE/iBDbLRpqCRX32c1n3s7LQN/MMbybLV8mwvCHZ4x
+  </data>
+ </layer>
+ <layer name="flagpole" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt00EJACAAwEDtX8lgPs0gCDK4S7DPxgAAbqz5uwC4tX0LOb6FHt9Cj2+hx7fQ41vo8S30+BZ6fAsAAG8cAy8Jfw==
+  </data>
+ </layer>
+ <layer name="pipe" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt0zENAAAIwDA+hKIRf2jgIiGtgj2LAAAAgD8qrwuArfYtAAAAAAAAAMDKACcqASc=
+  </data>
+ </layer>
+ <layer name="block" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt2csNxCAMAFGSItJbKqOYNJdLTlE+xhgw1jxpjwa0MNrDpgQAAKSOZfQJAAAA5rKvo0+AWvn6RMPbRFQ5xe0WiCgnugVmcm+WbuN7u2Pufg5PzXq5O8vz1K7RYr5kTev53t16/P4t95DOWrznt2Y9dGt9Ho/vhm59zffsVrvXV7Oju21xHo/vhm5185oGPXZbut9fs5L1tsn+V6Fb2Szd6oz+rYuKbmWzdKsTudsTasBV5A==
+  </data>
+ </layer>
+ <layer name="trap" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt0jcOwlAQAFFq3woRCkTOFOSc4QyEFo7MNBSIArBs0cyTpvJfyX/tREKSJEmSJEmSJEmSJEmSJEmSJOldLvj3G8TvxB3PdKFriPummElThrIh5mvM1KnxYbbL8x71aUBDGtGYJjSlGc1pQUta0Zo2tKUd7elAx4i+7XN/37px9k7JH2bynC1QkUpUpgpVg9f9NalFberE9O9Gvb+wHpwLFz4=
+  </data>
+ </layer>
+ <layer name="coin" width="238" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztmEsOwjAMBSvuv+W+rJCqNk78bBccaUZiAfgXk9fEHEec9+v+un5v+c1ijOKs7DxxIutTPo/Eutp41hDpV6Re729j+UM/vJqM2Iw0WVGPwtfP2qdKXK+Pugard0oMtRaPLZrtS5WWMjZqLi+z3Jm60C10oGIfdjxvvWdspK6Zz666Pduj2T1YzWGWz8i/y3xbpduIDs91r9bwtG7VnqLZPYn8Z5E5SzMxlXwR3c72/ZN94byFCL+cXWc2mf1TpVslhxX/n+dt1Bbt9sW7P9T3Sq6VTeU92bq/e2vx2Ow636LbvVDuf+oMvMozmm8tXxVvndmcmefKrO8Vc773jl/ZdwAAAAAAAAAAAOjNBw0ypu4=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="others" type="BirthPoint" x="32" y="176"/>
+  <object id="2" name="enemy" type="flyfish" x="288" y="208">
+   <properties>
+    <property name="duration" value="1"/>
+    <property name="offsetH" value="0"/>
+    <property name="offsetV" value="130"/>
+   </properties>
+  </object>
+  <object id="3" name="enemy" type="flyfish" x="400" y="208">
+   <properties>
+    <property name="duration" value="2"/>
+    <property name="offsetH" value="160"/>
+    <property name="offsetV" value="160"/>
+   </properties>
+  </object>
+  <object id="4" name="enemy" type="mushroom" x="752" y="128"/>
+  <object id="5" name="enemy" type="mushroom" x="784" y="128"/>
+  <object id="6" name="enemy" type="tortoise" x="912" y="128"/>
+  <object id="7" name="enemy" type="mushroom" x="816" y="128"/>
+  <object id="8" name="enemy" type="flyfish" x="1104" y="208">
+   <properties>
+    <property name="duration" value="2"/>
+    <property name="offsetH" value="192"/>
+    <property name="offsetV" value="160"/>
+   </properties>
+  </object>
+  <object id="9" name="enemy" type="mushroom" x="1456" y="128"/>
+  <object id="10" name="enemy" type="mushroom" x="1472" y="128"/>
+  <object id="11" name="enemy" type="tortoise_round" x="1664" y="112">
+   <properties>
+    <property name="roundDis" value="64"/>
+   </properties>
+  </object>
+  <object id="12" name="ladder" type="ladderLR" x="1776" y="160">
+   <properties>
+    <property name="LorR" value="0"/>
+    <property name="ladderDis" value="32"/>
+   </properties>
+  </object>
+  <object id="13" name="ladder" type="ladderLR" x="1856" y="128">
+   <properties>
+    <property name="LorR" value="1"/>
+    <property name="ladderDis" value="48"/>
+   </properties>
+  </object>
+  <object id="14" name="ladder" type="ladderLR" x="1936" y="176">
+   <properties>
+    <property name="LorR" value="0"/>
+    <property name="ladderDis" value="32"/>
+   </properties>
+  </object>
+  <object id="15" name="enemy" type="flyfish" x="2064" y="208">
+   <properties>
+    <property name="duration" value="1"/>
+    <property name="offsetH" value="100"/>
+    <property name="offsetV" value="160"/>
+   </properties>
+  </object>
+  <object id="16" name="enemy" type="flyfish" x="2288" y="208">
+   <properties>
+    <property name="duration" value="0.8"/>
+    <property name="offsetH" value="64"/>
+    <property name="offsetV" value="160"/>
+   </properties>
+  </object>
+  <object id="17" name="enemy" type="tortoise" x="2464" y="160"/>
+  <object id="18" name="enemy" type="mushroom" x="3056" y="128"/>
+  <object id="19" name="enemy" type="mushroom" x="3072" y="128"/>
+  <object id="20" name="mushroom" type="MushroomReward" x="496" y="80"/>
+  <object id="21" name="mushroom" type="MushroomReward" x="1632" y="64"/>
+  <object id="22" name="mushroom" type="MushroomAddLife" x="1856" y="64"/>
+  <object id="23" name="others" type="flagpoint" x="3600" y="32"/>
+  <object id="24" name="others" type="finalpoint" x="3720" y="80"/>
+  <object id="25" name="enemy" type="flyfish" x="352" y="48">
+   <properties>
+    <property name="duration" value="1"/>
+    <property name="offsetH" value="120"/>
+    <property name="offsetV" value="-140"/>
+   </properties>
+  </object>
+  <object id="26" name="enemy" type="flyfish" x="576" y="64">
+   <properties>
+    <property name="duration" value="1"/>
+    <property name="offsetH" value="120"/>
+    <property name="offsetV" value="-120"/>
+   </properties>
+  </object>
+  <object id="27" name="enemy" type="flyfish" x="624" y="32">
+   <properties>
+    <property name="duration" value="1"/>
+    <property name="offsetH" value="100"/>
+    <property name="offsetV" value="-160"/>
+   </properties>
+  </object>
+  <object id="28" name="enemy" type="battery" x="960" y="128">
+   <properties>
+    <property name="delay" value="1"/>
+   </properties>
+  </object>
+  <object id="29" name="enemy" type="flyfish" x="1312" y="192">
+   <properties>
+    <property name="duration" value="0.7"/>
+    <property name="offsetH" value="0"/>
+    <property name="offsetV" value="160"/>
+   </properties>
+  </object>
+  <object id="30" name="enemy" type="battery" x="3024" y="128">
+   <properties>
+    <property name="delay" value="1.5"/>
+   </properties>
+  </object>
+  <object id="31" name="enemy" type="flyfish" x="2064" y="48">
+   <properties>
+    <property name="duration" value="1"/>
+    <property name="offsetH" value="100"/>
+    <property name="offsetV" value="-160"/>
+   </properties>
+  </object>
+  <object id="32" name="enemy" type="flyfish" x="2576" y="48">
+   <properties>
+    <property name="duration" value="1.5"/>
+    <property name="offsetH" value="130"/>
+    <property name="offsetV" value="-150"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
