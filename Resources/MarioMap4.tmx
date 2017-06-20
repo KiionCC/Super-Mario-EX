@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="160" height="14" tilewidth="16" tileheight="16" nextobjectid="15">
+ <tileset firstgid="1" name="superMarioMap" tilewidth="16" tileheight="16" spacing="1" margin="1" tilecount="900" columns="30">
+  <image source="superMarioMap.png" width="511" height="511"/>
+  <tile id="0">
+   <properties>
+    <property name="blockType" value="2"/>
+   </properties>
+  </tile>
+  <tile id="600">
+   <properties>
+    <property name="blockType" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="901" source="bg2.tsx"/>
+ <layer name="background" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer name="flagpole" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAAAIA7CDBe2fxhgqbAmWAAAAAABXdG0PAAAA4J8BGjgAVA==
+  </data>
+ </layer>
+ <layer name="land" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztlmEOQDAMRucQDuskTmLn80syjbC2G8V7yRc/2FbtS0gJ4DlmQj4aC0/XrH2Hq2dq7rfuoeYc7149wb/+4F8fItcGPt7gH0ANuQjA3UxFcBDuZkoxHMxBA3uW1LY/0r/NwZqZWOaYxfWsjgh5k//aWY2DPln0x4tlJpa1R2u8dfwhGrSzsrA02KME/2JHA/7hX+tovtU93d6Q/nn/L/Dvv7Eg/fNmBWOmFUk=
+  </data>
+ </layer>
+ <layer name="block" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt19ENABEQBcCNRq6uq0y7OpBsXHDMJPtlg3g+qBFRlVpUWdk5v1jzBs4J+JtncJy9ZPPK9Pd63ZOz9PJ8y7RtAAAHGP1veGeuJwMAALhTA/Oga0Y=
+  </data>
+ </layer>
+ <layer name="trap" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt0rEJwDAMBEB7huw/pnoXiSGFU8iYqLmDbwRSIb41AAAAAAAAoFI8gQpXv5Ox6mx8zPlHbKbaTv9WO3OWvcUZ7/9nctIAM2gV5g==
+  </data>
+ </layer>
+ <layer name="cloud" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztzEERAAAMAiD7F1jdnSH8QQCSnRveAAAAAAAAAABQD5LoAJg=
+  </data>
+ </layer>
+ <layer name="mountain" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztzqERADAIBEH6byClEpk0gEGA2Z05/R8x7yxsAgAAAABQy9/dPgEAAND0AFBDAoc=
+  </data>
+ </layer>
+ <layer name="pipe" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6D3L2BdY1w3SEByx7QDAAAAAAAAAAC8s3aYAJg=
+  </data>
+ </layer>
+ <layer name="coin" width="160" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzt0qEKACAMRdHh/1f/1yCCYTDDguEcGIybXwQAAAAAMMe+qkG3e2Pnzxp0y7b12gAA4DcL558Gfg==
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="1" name="enemy" type="fire_string" x="360" y="72">
+   <properties>
+    <property name="begAngle" value="90"/>
+    <property name="time" value="4"/>
+   </properties>
+  </object>
+  <object id="2" name="enemy" type="fire_string" x="472" y="136">
+   <properties>
+    <property name="begAngle" value="0"/>
+    <property name="time" value="2"/>
+   </properties>
+  </object>
+  <object id="3" name="enemy" type="fire_string" x="776" y="56">
+   <properties>
+    <property name="begAngle" value="180"/>
+    <property name="time" value="4"/>
+   </properties>
+  </object>
+  <object id="4" name="enemy" type="fire_string" x="952" y="56">
+   <properties>
+    <property name="begAngle" value="90"/>
+    <property name="time" value="2"/>
+   </properties>
+  </object>
+  <object id="5" name="enemy" type="fire_string" x="1064" y="56">
+   <properties>
+    <property name="begAngle" value="270"/>
+    <property name="time" value="4"/>
+   </properties>
+  </object>
+  <object id="6" name="enemy" type="fire_string" x="1224" y="120">
+   <properties>
+    <property name="begAngle" value="90"/>
+    <property name="time" value="4"/>
+   </properties>
+  </object>
+  <object id="7" name="enemy" type="fire_string" x="1352" y="120">
+   <properties>
+    <property name="begAngle" value="270"/>
+    <property name="time" value="3"/>
+   </properties>
+  </object>
+  <object id="8" name="enemy" type="fire_string" x="1480" y="120">
+   <properties>
+    <property name="begAngle" value="300"/>
+    <property name="time" value="4"/>
+   </properties>
+  </object>
+  <object id="9" name="others" type="BirthPoint" x="16" y="80"/>
+  <object id="10" name="mushroom" type="MushroomReward" x="464" y="80"/>
+  <object id="11" name="enemy" type="boss" x="2160" y="128"/>
+  <object id="12" name="others" type="finalpoint" x="2448" y="176"/>
+  <object id="13" name="others" type="flagpoint" x="2248" y="112"/>
+  <object id="14" name="others" type="bridgestartpos" x="2032" y="144"/>
+ </objectgroup>
+</map>
