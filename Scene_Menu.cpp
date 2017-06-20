@@ -1,8 +1,8 @@
-#include "Scene_Menu.h"
-#include "Scene_Game.h"
-#include "Date_Global.h"
-#include "Scene_Select.h"
+#include "Data_Global.h"
 #include "Scene_AudioSet.h"
+#include "Scene_Game.h"
+#include "Scene_Menu.h"
+#include "Scene_Select.h"
 
 MenuLayer::MenuLayer()
 {
@@ -37,7 +37,6 @@ MenuLayer::~MenuLayer()
 bool MenuLayer::init()
 {
 	this->setTouchEnabled(true);
-	//Director::getInstance()->getTouchDispatcher()->addTargetedDelegate(this, 0, false);
 	auto listen = EventListenerTouchOneByOne::create();
 	listen->onTouchBegan = CC_CALLBACK_2(MenuLayer::onTouchBegan, this);
 	listen->onTouchMoved = CC_CALLBACK_2(MenuLayer::onTouchMoved, this);
